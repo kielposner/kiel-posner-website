@@ -22,16 +22,16 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <img src={image1} alt="image1" className="rounded-md p-8 bg-white border-2 border-white" />
+            <img src={image1} alt="image1" className="rounded-md p-5 bg-slate-50 border-2 border-slate-700" />
           </div>
           <div>
-            <img src={image2} alt="image2" className="rounded-md p-8 bg-white border-2 border-white" />
+            <img src={image2} alt="image2" className="rounded-md p-5 bg-slate-50 border-2 border-slate-700"  />
           </div>
           <div>
-            <img src={image3} alt="image3" className="rounded-md p-8 bg-white border-2 border-white" />
+            <img src={image3} alt="image3" className="rounded-md p-5 bg-slate-50 border-2 border-slate-700"  />
           </div>
           <div>
-            <img src={image4} alt="image4" className="rounded-md p-8 bg-white border-2 border-white" />
+            <img src={image4} alt="image4" className="rounded-md p-5 bg-slate-50 border-2 border-slate-700"  />
           </div>
         </Slider>
       </div>
